@@ -1,0 +1,14 @@
+# Ignorar archivos generados por Eclipse
+.classpath
+.project
+/bin/
+
+# Ignorar la Base de Datos SQLite (datos locales)
+citas_medicas.db
+
+# Ignorar el driver JDBC y otros JARs (son librerías, no codigo fuente)
+*.jar
+
+# Ignorar posibles archivos de sistema (macOS/Windows)
+.DS_Store
+Thumbs.db
